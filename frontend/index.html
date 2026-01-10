@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Screening System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resume Screening & Job Recommendation</h1>
+
+        <textarea id="resumeText" placeholder="Paste your resume text here..."></textarea>
+
+        <p>OR</p>
+
+        <input type="file" id="resumeFile" accept=".pdf">
+
+        <button onclick="submitResume()">Analyze Resume</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
