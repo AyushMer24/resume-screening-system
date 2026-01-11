@@ -43,6 +43,20 @@ resume-screening-system/
 
 ---
 
+## Things you should know to truly understand the project
+
+1. fast api
+2. pydantic
+3. pypdf2
+4. re
+5. nltk
+6. scikit learn (tf-idf vectorizer, cosine similarity)
+7. html,css,js
+8. sqlalchemy
+9. github
+
+---
+
 Author
 Ayush Mer
 GitHub: https://github.com/AyushMer24
