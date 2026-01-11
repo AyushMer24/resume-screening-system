@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 
 from backend.pdf_reader import extract_text_from_pdf
-from backend.jobs_data import job_descriptions
 from backend.nlp_utils import preprocess_text, match_resume_to_jobs
 from backend.models import Job  
 from fastapi import Depends
